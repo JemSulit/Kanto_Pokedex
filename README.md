@@ -1,5 +1,26 @@
 # Kanto-Poké-dex
-The modern Pokédex is a handheld electronic encyclopedia device, one which is capable of recording and retaining information of the various Pokémon of the world. In order to accomplish Professor Oak's goal of a complete Pokémon database, the Pokédex is designed to find and record data on each Pokémon the Trainer meets.
+Kanto Pokédex is a Pokédex console that lets users view, add, and delete Pokémon discoveries. All 151 Kanto Pokémon has a designated text file as storage. Users pokémon will automatically save after they exit the console. In order to give life to the console, the code was changed to give a gaming vibe for users to happily engage with it.
 
-References:
-https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex
+OOP Concepts Applied
+  Encapsulation
+  
+  Inheritance
+  
+  Polymorphism
+  
+  Composition
+
+Program Structure
+
+
+How to Run the Program
+
+
+Sample output
+
+
+Author and acknowledgement
+
+
+Other Sections you may include
+

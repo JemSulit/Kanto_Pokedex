@@ -6,6 +6,28 @@ public class Kanto_PokeDex {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random(); 
 
+        System.out.println("_____________________________________________________________________________________");
+        System.out.println("|                                                                                   |");
+        System.out.println("|                            █▀▄ ▄▀▄ █░▄▀ █▀ █▀▄ █▀ █░█                             |");
+        System.out.println("|                            █▄█ █░█ █▀▄░ █▀ █░█ █▀ ▄▀▄                             |");
+        System.out.println("|                            ▀░░ ░▀░ ▀░▀▀ ▀▀ ▀▀▀ ▀▀ ▀░▀                             |");
+        System.out.println("|___________________________________________________________________________________|");
+        System.out.println("|                                                                                   |");
+        System.out.println("|   ┌────────────────────────────────────────────┐    ┌───────────────────────────┐ |");
+        System.out.println("|   │                                            │    │                           │ |");
+        System.out.println("|   │                                            │    │                           │ |");
+        System.out.println("|   │                                            │    │                           │ |");
+        System.out.println("|   │                                            │    │                           │ |");
+        System.out.println("|   │                                            │    │                           │ |");
+        System.out.println("|   │                                            │    │                           │ |");
+        System.out.println("|   │                                            │    │                           │ |");
+        System.out.println("|   │                                            │    │                           │ |");
+        System.out.println("|   │                                            │    │                           │ |");
+        System.out.println("|   └────────────────────────────────────────────┘    └───────────────────────────┘ |");
+        System.out.println("|                                                                                   |");
+        System.out.println("|     [▲]  [▼]  [◄]  [►]                     [A] Select   [B] Back   [Start] Menu   |");
+        System.out.println("|___________________________________________________________________________________|");
+        
         System.out.println("[Professor Oak]: Hello there! Welcome to the world of Pokémon!");
         System.out.println("[Professor Oak]: For some people, Pokémon are pets. Others use them for battles.");
         System.out.println("[Professor Oak]: As for myself... I study Pokémon as a profession.\n");
@@ -54,3 +76,4 @@ public class Kanto_PokeDex {
         scanner.close();
     }
 }
+

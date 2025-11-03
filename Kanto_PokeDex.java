@@ -25,7 +25,7 @@ public class Kanto_PokeDex {
         System.out.println("|   │                                            │    │                           │ |");
         System.out.println("|   └────────────────────────────────────────────┘    └───────────────────────────┘ |");
         System.out.println("|                                                                                   |");
-        System.out.println("|     [▲]  [▼]  [◄]  [►]                     [A] Select   [B] Back   [Start] Menu   |");
+        System.out.println("|                                            [A] Select   [B] Back   [Start] Menu   |");
         System.out.println("|___________________________________________________________________________________|");
         
         System.out.println("[Professor Oak]: Hello there! Welcome to the world of Pokémon!");
@@ -76,4 +76,5 @@ public class Kanto_PokeDex {
         scanner.close();
     }
 }
+
 

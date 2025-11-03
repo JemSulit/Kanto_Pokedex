@@ -1,8 +1,10 @@
 import java.util.Scanner;
+import java.util.Random; 
 
 public class Kanto_PokeDex {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        Random random = new Random(); 
 
         System.out.println("[Professor Oak]: Hello there! Welcome to the world of Pokémon!");
         System.out.println("[Professor Oak]: For some people, Pokémon are pets. Others use them for battles.");
@@ -25,7 +27,7 @@ public class Kanto_PokeDex {
         System.out.println("3. Bulbasaur\n");
 
         System.out.print("[Professor Oak]: So, which Pokémon will you choose?\n");
-        System.out.print("[" + name + "]:" );
+        System.out.print("[" + name + "]: ");
         int choice = scanner.nextInt();
         String pokemon = "";
 
@@ -40,8 +42,9 @@ public class Kanto_PokeDex {
                 pokemon = "Bulbasaur";
                 break;
             default:
-                System.out.println("[Professor Oak]: Hmm... that’s not a valid choice! I’ll give you Bulbasaur for now.");
-                pokemon = "Bulbasaur";
+                String[] starters = {"Squirtle", "Charmander", "Bulbasaur"};
+                pokemon = starters[random.nextInt(starters.length)];
+                System.out.println("[Professor Oak]: Hmm... that’s not a valid choice! I’ll give you " + pokemon + " instead.");
         }
 
         System.out.println("\n[Professor Oak]: Excellent choice, " + name + "! You’ve chosen " + pokemon + "!");
